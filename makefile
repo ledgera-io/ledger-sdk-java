@@ -1,0 +1,2 @@
+generate:
+	openapi-generator-cli generate -i ./api/openapi.yaml -g java -apiPackage=com.ledgera-io.ledger -artifactId=ledgera-sdk  -apiPackage=com.ledgera-io.ledger -modelPackage com.ledgera-io.ledger.model
